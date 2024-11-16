@@ -1,0 +1,35 @@
+﻿<Page x:Class="MovieSystem.Register"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MovieSystem"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Register">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="pawel-czerwinski-RXg6VHXYIXQ-unsplash.jpg"></ImageBrush>
+        </Grid.Background>
+        <Border Background="AntiqueWhite" Margin="200,93,200,63" CornerRadius="5" BorderBrush="White" BorderThickness="2">
+
+        </Border>
+        <Label FontFamily="Cooper" FontSize="40" Foreground="Black" Margin="305,97,304,293">Register</Label>
+        <Label Foreground="Black" Margin="210,167,526,249" FontSize="9">Username:</Label>
+        <TextBox x:Name="UserName_Input" Margin="214,185,451,248" Background="LightPink"></TextBox>
+
+        <Label Foreground="Black" FontSize="9" Margin="210,204,530,222">Password:</Label>
+        <TextBox x:Name="Password_Input" Margin="214,222,451,212" Background="LightPink"></TextBox>
+        <Button Click="RegisterClick" Margin="217,342,487,76" Background="LightPink">Register</Button>
+
+        
+        
+
+        <Label Foreground="Black" Margin="210,239,503,177" FontSize="9" Content="Confirm Password:"/>
+        <TextBox x:Name="ConfimPass_Input" Margin="214,257,451,176" Background="LightPink"/>
+
+        <Label Foreground="Black" FontSize="9" Margin="210,275,530,151" Content="Email:"/>
+        <TextBox x:Name="Email_Input" Margin="214,294,451,140" Background="LightPink"/>
+    </Grid>
+</Page>
