@@ -38,7 +38,7 @@ namespace MovieSystem
                 user.UserPassword = PasswordB.Text;
                 db.Users.AddOrUpdate(user);
                 db.SaveChanges();
-                MessageBox.Show("Password Changed Succesfuly!");
+                MessageBox.Show("Password Changed Succesfuly");
             }
             else
             {
